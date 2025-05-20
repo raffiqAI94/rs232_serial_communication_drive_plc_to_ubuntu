@@ -1,0 +1,7 @@
+<launch>
+  <node name="plc_message_parser_node" pkg="plc_message_parser" type="plc_message_parser_node" output="screen">
+  <param name="serial_port" value="/dev/ttyUSB0"/>
+  <param name="baud_rate" value="19200"/>
+  </node>
+</launch>
+

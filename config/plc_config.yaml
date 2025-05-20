@@ -1,0 +1,7 @@
+plc_driver_node:
+  serial_port: "/dev/ttyUSB2" 
+  baud_rate: 19200
+  Stopbits: 1
+  parity: none
+  Databits: 8
+  timeout: 0.5
